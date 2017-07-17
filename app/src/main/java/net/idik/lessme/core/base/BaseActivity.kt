@@ -23,7 +23,7 @@ abstract class BaseActivity : RxActivity(), AnkoLogger {
     protected val toolbar: Toolbar? by lazy {
         findOptional<Toolbar>(R.id.toolbar)?.apply {
             setSupportActionBar(this)
-            if (this::class.java.isAnnotationPresent(Backable::class.java)) {
+            if (this@BaseActivity::class.java.isAnnotationPresent(Backable::class.java)) {
                 supportActionBar?.setDisplayHomeAsUpEnabled(true)
                 this.setNavigationOnClickListener { onBackPressed() }
             }
