@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="pkey_anyme_mirror_mode">mirror_mode</string>
+    <string name="title_anyme_mirror_mode">镜子模式</string>
+    <string name="title_manage_accounts">管理帐号</string>
+    <string name="group_title_more">MORE</string>
+    <string name="group_title_debug">DEBUG</string>
+</resources>

@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">LessME</string>
+    <string name="action_settings">设置</string>
+
+    <string name="hub_committing">正在提交</string>
+    <string name="hub_loading">请稍等</string>
+    <string name="title_activity_user_center">UserCenterActivity</string>
+
+</resources>
